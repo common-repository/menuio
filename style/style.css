@@ -1,0 +1,241 @@
+a {
+		text-decoration: none;
+	}
+	.href {
+		text-decoration: none;
+	} 
+	#wrap {
+		width: 1200px;
+		min-height: 300px;
+		border-top: 1px solid #bababa; 
+	}
+	#mencon {
+		width: 500px;
+		min-height: 200px;
+		float: left;
+	}
+	#mencon2 {
+		width: 500px;
+		min-height: 700px;
+		float: right;
+	}
+	#logo {
+		font-size: 45px;
+		text-align: center;
+	}
+	#clog {
+		color: red;
+}
+	#social {
+		min-width: 50px;
+		min-height: 50px;
+		/*box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);*/
+		margin-bottom: 6px;
+	}
+	.ico {
+		min-width: 30px;
+		height: 50px;
+		float: left;
+		margin-right: 10px;
+	}
+	.ico a {
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	#preview {
+		float: left;
+		width: 100px;
+		min-height: 50px;
+	}
+	.prwimg {
+		padding: 3px;
+		transition-duration: 1s;
+	}
+	.prwimg:hover {
+		transform: rotate(360deg);
+		transition-duration: 1s;
+	}
+	.menuimgdef {
+		padding: 1px;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	.menuimg {
+		transition-duration: 1s;
+		padding: 1px;
+		margin: 0px !important;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	.menuimg a {
+		text-decoration: none !important;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	.menuimg:hover {
+		transform: rotate(360deg);
+		transition-duration: 1s;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	.menuimgshadow {
+		transition: transform 1s;
+		padding: 1px;
+		margin: 0px !important;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	.menuimgshadow:hover {
+		transform: scale(1.8);
+		transition: transform 1s;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important; 
+	}
+	#scroll {
+		visibility: : hidden;
+		position: fixed;
+		opacity: 0;
+		transition: opacity 200ms;
+		bottom: 2px;
+		right: 2px;
+		min-width: 50px;
+		min-height: 50px;
+		border-radius: 5px;
+		padding: 4px !important;
+	}
+	#scrollhid {
+		position: fixed;
+		visibility: visible;
+		transition: opacity 200ms;
+		opacity: 1;
+		z-index: 10;
+		bottom: 2px;
+		right: 2px;
+		min-width: 50px;
+		min-height: 50px;
+		border-radius: 5px;
+		padding: 4px;
+	}
+	#hidden_settings {
+		display: none;
+		min-width: 50px;
+		min-height: 50px;
+	}
+	.customh3 {
+		cursor: pointer;
+		width: 200px;
+		margin: 0px;
+		margin-bottom: 10px;
+		transition-duration: 500ms;
+	}
+	.customh3:hover {
+		color: #8c0000;
+		transition-duration: 500ms;
+	}
+	#show_settings {
+		display: block; 
+		min-width: 50px;
+		min-height: 50px;
+
+	}
+	.barva {
+		margin-left: 30px;
+		margin-right: 20px;
+	}
+	#popis {
+		margin: 0px;
+	}
+	#customdiv {
+		display: none;
+		min-width: 500px;
+		min-height: 50px;
+	}
+	.labelcus {
+		margin-left: 44px;
+	}
+	.divlc {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.divtxt {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+		margin-top: 10px
+	}
+	.divsoc {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.divcsoc {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.divsize {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.divdes {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.divanim {
+		background-color: #e6e6e6;
+		border-radius: 7px;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.nadp {
+		transition-duration: 500ms;
+		cursor: pointer;
+	}
+	.nadp:hover {
+		color: #8c0000;
+		transition-duration: 500ms;
+	}
+	.labsoc {
+		font-weight: bold;
+	}
+	.insoc {
+		margin-right: 20px !important;
+	}
+	.sep {
+		margin-bottom: 15px;
+	}
+	.fresh {
+		.color: blue;
+	}
+	.light {
+		color: #888;
+	}
+	.blue {
+		color: #096484;
+	}
+	.coffee {
+		color: #c7a589;
+	}
+	.ectoplasm {
+		color: #a3b745;
+	}
+	.midnight {
+		color: #e14d43;
+	}
+	.ocean {
+		color: #9ebaa0;
+	}
+	.sunrise {
+		color: #dd823b;
+	}
+
+	
